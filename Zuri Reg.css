@@ -1,3 +1,8 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 main {
   background-image: linear-gradient(
       rgba(243, 104, 104, 0.8),
@@ -12,7 +17,7 @@ main {
   font-size: 16px;
   color: white;
 }
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   main {
     height: 100%;
     width: auto;
@@ -25,7 +30,7 @@ main {
   justify-content: space-around;
   align-items: center;
 }
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .first {
     display: flex;
     flex-direction: column;
@@ -54,7 +59,7 @@ main {
   margin-top: 5%;
   padding: 20px;
 }
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .container {
     margin: 0% 0% 5% 15%;
   }
@@ -75,7 +80,7 @@ main {
 .header {
   margin-right: 17%;
 }
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .header {
     margin-left: 15%;
   }
@@ -84,7 +89,7 @@ main {
 .message {
   margin: 0% 0% 5% 23%;
 }
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .message {
     margin-right: 25%;
   }
